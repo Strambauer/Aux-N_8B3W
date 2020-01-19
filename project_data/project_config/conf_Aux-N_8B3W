@@ -16,7 +16,7 @@
 # ###############################################################
 
 # Project name - used for directory with make-/project-file
-PROJECT=PowerBauer_AuxN
+PROJECT=Aux-N_8B3W
 
 
 # ###############################################################
@@ -25,7 +25,7 @@ PROJECT=PowerBauer_AuxN
 
 # Path to IsoAgLib's main directory (where "library" is located in)
 # relative to the directory from which "update_makefile.sh conf_<PROJECTNAME>" is called.
-ISO_AG_LIB_PATH="../../.."
+ISO_AG_LIB_PATH="../../IsoAgLib"
 
 
 # ###############################################################
@@ -38,7 +38,7 @@ ISO_AG_LIB_PATH="../../.."
 # Base Path(es) to the application's sources.
 # Defaults to ISO_AG_LIB_PATH if it is not set!
 # (separate multiple directories by whitespace)
-APP_PATH="../../../PowerBauer_AuxN"
+APP_PATH=".."
 
 # Path(es) to the application files
 # relative to APP_PATH
