@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<objectpool>
+ <outputstring name="osAboutTitle" id="65490" width="80" height="15" font_attributes="fta8x8" background_colour="white" options="transparent+autowrap" horizontal_justification="middle" vertical_justification="top" value="ISOAgLib Tutorial" length="17" auto_set_length="1" variable_reference="NULL"/>
+</objectpool>

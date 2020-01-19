@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<objectpool>
+  <datamask name="dmAbout" id="1004" background_colour="222" soft_key_mask="skmDisplay">
+    <include_object name="osAboutTitle" pos_x="115" pos_y="8"/>
+  </datamask>
+</objectpool>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<objectpool>
+  <auxiliaryinput2 name="Button1" id="240" background_colour="white" function_type="nonlatchingboolean"  input_id="1"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Button1" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Button2" id="241" background_colour="white" function_type="nonlatchingboolean"  input_id="2"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Button2" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Button3" id="242" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Button3" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Button4" id="243" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Button4" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Button5" id="244" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Button5" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Button6" id="245" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Button6" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Button7" id="246" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Button7" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Button8" id="247" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Button8" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Wippe1rechts" id="248" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Wippe1rechts" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Wippe1links" id="249" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Wippe1links" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Wippe2oben" id="250" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Wippe2oben" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Wippe2unten" id="251" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Wippe2unten" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Wippe3rechts" id="252" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Wippe3rechts" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+  <auxiliaryinput2 name="Wippe3links" id="253" background_colour="white" function_type="nonlatchingboolean"  input_id="3"  options="singleassignment">
+    <include_object name="8Button_3Wippen_Wippe3links" pos_x="0" pos_y="0"/>
+  </auxiliaryinput2>
+  
+</objectpool>
