@@ -13,10 +13,10 @@
 #include <IsoAgLib/comm/Part6_VirtualTerminal_Client/ivtclientconnection_c.h>
 #include <IsoAgLib/comm/Part6_VirtualTerminal_Client/ivtobjectauxiliaryfunction2_c.h>
 
-#include "PowerBauer_AuxN_derived-h.h"
+#include "AuxN_8B3W_derived-h.h"
 
 
-class MyVtDisplay : public iObjectPool_PowerBauer_AuxN_c
+class MyVtDisplay : public iObjectPool_AuxN_8B3W_c
 {
 public:
 	MyVtDisplay();
@@ -57,6 +57,22 @@ private:
 
     uint16_t mui_activeMaskId;
     uint8_t pool_uploaded;
+
+    bool old_B1_state;
+    bool old_B2_state;
+    bool old_B3_state;
+    bool old_B4_state;
+    bool old_B5_state;
+    bool old_B6_state;
+    bool old_B7_state;
+    bool old_B8_state;
+
+    bool old_W1l_state;
+    bool old_W1r_state;
+    bool old_W2o_state;
+    bool old_W2u_state;
+    bool old_W3l_state;
+    bool old_W3r_state;
 
 };
 

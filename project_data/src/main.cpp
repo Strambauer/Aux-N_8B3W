@@ -39,7 +39,7 @@ int main() {
 
     item_mc = new IsoAgLib::iIdentItem_c();
 
-    iso_name_mc = new IsoAgLib::iIsoName_c(true, 2, 0, 0, 255, 0x7FF, 0x004, 1, 1);
+    iso_name_mc = new IsoAgLib::iIsoName_c(true, 2, 0, 0, 66, 0x7FF, 0x004, 1, 1);
 
 
     IsoAgLib::getIIsoBusInstance(0).init(0);
@@ -54,7 +54,7 @@ int main() {
                                   42,
                                   8
                                   );
-    item_mc->setProductIdentification("PBS", "Strambauer", "Power Bauer AuxN");
+    item_mc->setProductIdentification("PBS", "Strambauer", "Aux-N_8B3W");
 
 
 
@@ -126,20 +126,20 @@ int main() {
         if(objectPool->isVtActive())
         {
 
-            objectPool->setAuxBoolState(0,(inputButton1.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(1,(inputButton2.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(2,(inputButton3.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(3,(inputButton4.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(4,(inputButton5.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(5,(inputButton6.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(6,(inputButton7.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(7,(inputButton8.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(8,(inputWippe1links.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(9,(inputWippe1rechts.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(10,(inputWippe2oben.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(11,(inputWippe2unten.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(12,(inputWippe3links.readStateChange() == CwiringPiInput::rising));
-            objectPool->setAuxBoolState(13,(inputwippe3rechts.readStateChange() == CwiringPiInput::rising));
+            objectPool->setAuxBoolState(0,inputButton1.getState());
+            objectPool->setAuxBoolState(1,inputButton2.getState());
+            objectPool->setAuxBoolState(2,inputButton3.getState());
+            objectPool->setAuxBoolState(3,inputButton4.getState());
+            objectPool->setAuxBoolState(4,inputButton5.getState());
+            objectPool->setAuxBoolState(5,inputButton6.getState());
+            objectPool->setAuxBoolState(6,inputButton7.getState());
+            objectPool->setAuxBoolState(7,inputButton8.getState());
+            objectPool->setAuxBoolState(8,inputWippe1links.getState());
+            objectPool->setAuxBoolState(9,inputWippe1rechts.getState());
+            objectPool->setAuxBoolState(10,inputWippe2oben.getState());
+            objectPool->setAuxBoolState(11,inputWippe2unten.getState());
+            objectPool->setAuxBoolState(12,inputWippe3links.getState());
+            objectPool->setAuxBoolState(13,inputwippe3rechts.getState());
 
         }
 

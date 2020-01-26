@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <objectpool>
-  <workingset name="wsPowerBauerAuxN" id="0" background_colour="white" selectable="0" active_mask="dmAbout">
+  <workingset name="wsAuxN_8B3W" id="0" background_colour="white" selectable="0" active_mask="dmAbout">
     <include_object name="8Button_3Wippen" pos_x="0" pos_y="0"/>
   </workingset>
 </objectpool>

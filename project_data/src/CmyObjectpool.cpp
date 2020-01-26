@@ -6,7 +6,7 @@
  */
 
 #include "CmyObjectpool.hpp"
-#include "PowerBauer_AuxN_derived-cpp.h"
+#include "AuxN_8B3W_derived-cpp.h"
 
 
 
@@ -104,101 +104,170 @@ void MyVtDisplay::setAuxBoolState(uint8_t aux_Id, bool state)
     {
     case 0:
         iVtObjectButton1.setValue(state);
-        if(state)
+        if(state && state != old_B1_state)
         {
             printf("Button 1 presse!\r\n");
         }
+        else if(!state && state != old_B1_state)
+        {
+            printf("Button 1 released!\r\n");
+        }
+        old_B1_state = state;
         break;
     case 1:
         iVtObjectButton2.setValue(state);
-        if(state)
+        if(state && state != old_B2_state)
         {
             printf("Button 2 presse!\r\n");
         }
+        else if(!state && state != old_B2_state)
+        {
+            printf("Button 2 released!\r\n");
+        }
+        old_B2_state = state;
         break;
     case 2:
         iVtObjectButton3.setValue(state);
-        if(state)
+        if(state && state != old_B3_state)
         {
             printf("Button 3 presse!\r\n");
         }
+        else if(!state && state != old_B3_state)
+        {
+            printf("Button 3 released!\r\n");
+        }
+        old_B3_state = state;
         break;
     case 3:
         iVtObjectButton4.setValue(state);
-        if(state)
+        if(state && state != old_B4_state)
         {
             printf("Button 4 presse!\r\n");
         }
+        else if(!state && state != old_B4_state)
+        {
+            printf("Button 4 released!\r\n");
+        }
+        old_B4_state = state;
         break;
     case 4:
-        iVtObjectButton5.setValue(state);
-        if(state)
+        if(state && state != old_B5_state)
         {
             printf("Button 5 presse!\r\n");
         }
+        else if(!state && state != old_B5_state)
+        {
+            printf("Button 5 released!\r\n");
+        }
+        old_B5_state = state;
         break;
     case 5:
         iVtObjectButton6.setValue(state);
-        if(state)
+        if(state && state != old_B6_state)
         {
             printf("Button 6 presse!\r\n");
         }
+        else if(!state && state != old_B6_state)
+        {
+            printf("Button 6 released!\r\n");
+        }
+        old_B6_state = state;
         break;
     case 6:
         iVtObjectButton7.setValue(state);
-        if(state)
+        if(state && state != old_B7_state)
         {
             printf("Button 7 presse!\r\n");
         }
+        else if(!state && state != old_B7_state)
+        {
+            printf("Button 7 released!\r\n");
+        }
+        old_B7_state = state;
         break;
     case 7:
         iVtObjectButton8.setValue(state);
-        if(state)
+        if(state && state != old_B8_state)
         {
             printf("Button 8 presse!\r\n");
         }
+        else if(!state && state != old_B8_state)
+        {
+            printf("Button 8 released!\r\n");
+        }
+        old_B8_state = state;
         break;
     case 8:
         iVtObjectWippe1links.setValue(state);
-        if(state)
+        if(state && state != old_W1l_state)
         {
             printf("Wippe 1 links presse!\r\n");
         }
+        else if(!state && state != old_W1l_state)
+        {
+            printf("Wippe 1 links released!\r\n");
+        }
+        old_W1l_state = state;
         break;
     case 9:
         iVtObjectWippe1rechts.setValue(state);
-        if(state)
+        if(state && state != old_W1r_state)
         {
             printf("Wippe 1 rechts presse!\r\n");
         }
+        else if(!state && state != old_W1r_state)
+        {
+            printf("Wippe 1 rechts released!\r\n");
+        }
+        old_W1r_state = state;
         break;
     case 10:
         iVtObjectWippe2oben.setValue(state);
-        if(state)
+        if(state && state != old_W2o_state)
         {
             printf("Wippe 2 oben presse!\r\n");
         }
+        else if(!state && state != old_W2o_state)
+        {
+            printf("Wippe 2 oben released!\r\n");
+        }
+        old_W2o_state = state;
         break;
     case 11:
         iVtObjectWippe2unten.setValue(state);
-        if(state)
+        if(state && state != old_W2u_state)
         {
             printf("Wippe 2 unten presse!\r\n");
         }
+        else if(!state && state != old_W2u_state)
+        {
+            printf("Wippe 2 unten released!\r\n");
+        }
+        old_W2u_state = state;
         break;
     case 12:
         iVtObjectWippe3links.setValue(state);
-        if(state)
+        if(state && state != old_W3l_state)
         {
             printf("Wippe 3 links presse!\r\n");
         }
+        else if(!state && state != old_W3l_state)
+        {
+            printf("Wippe 3 links released!\r\n");
+        }
+        old_W3l_state = state;
         break;
     case 13:
         iVtObjectWippe3rechts.setValue(state);
-        if(state)
+        if(state && state != old_W3r_state)
         {
             printf("Wippe 3 rechts presse!\r\n");
         }
+        else if(!state && state != old_W3r_state)
+        {
+            printf("Wippe 3 rechts released!\r\n");
+        }
+        old_W3r_state = state;
         break;
     }
 }

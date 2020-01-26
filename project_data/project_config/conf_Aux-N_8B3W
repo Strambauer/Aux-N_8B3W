@@ -228,7 +228,7 @@ PRJ_ISO_VIRTUALTERMINAL_CLIENT=1
 # The following defines can be set to "<PATH>/<OBJECTPOOLPROJECT_NAME>-objectselection.inc"
 # files created by vt2iso to specify which objects are NOT part of the object pool(s)
 # and thus need not be included in IsoAgLib's VT-Client module.
-PRJ_ISO_TERMINAL_OBJECT_SELECTION1="PowerBauer_AuxN-objectselection.inc"
+PRJ_ISO_TERMINAL_OBJECT_SELECTION1="AuxN_8B3W-objectselection.inc"
 # PRJ_ISO_TERMINAL_OBJECT_SELECTION2="<ANOTHER_POOL>-objectselection.inc"
 # PRJ_ISO_TERMINAL_OBJECT_SELECTION3="<ANOTHER_POOL>-objectselection.inc"
 # PRJ_ISO_TERMINAL_OBJECT_SELECTION4="<ANOTHER_POOL>-objectselection.inc"

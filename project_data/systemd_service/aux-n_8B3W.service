@@ -1,0 +1,12 @@
+[Unit]
+Description=Ininialisation of CAN Hardware and start of the ISOBUS AuxN Programm
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStartPre=/bin/ip link set can0 up type can bitrate 250000 restart-ms 500
+ExecStartPre=/sbin/ifconfig can0 txqueuelen 10000
+ExecStart=/home/pi/PowerBauer_AuxN/bin/Aux-N_8B3W > /home/pi/PowerBauer_AuxN/log/auxN.log 2>&1
+
+[Install]
+WantedBy=multi-user.target
