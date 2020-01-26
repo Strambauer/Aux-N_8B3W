@@ -6,7 +6,7 @@ After=multi-user.target
 Type=idle
 ExecStartPre=/bin/ip link set can0 up type can bitrate 250000 restart-ms 500
 ExecStartPre=/sbin/ifconfig can0 txqueuelen 10000
-ExecStart=/home/pi/PowerBauer_AuxN/bin/Aux-N_8B3W > /home/pi/PowerBauer_AuxN/log/auxN.log 2>&1
+ExecStart=/home/pi/AuxN_8B3W/bin/Aux-N_8B3W > /home/pi/AuxN_8B3W/log/auxN.log 2>&1
 
 [Install]
 WantedBy=multi-user.target
