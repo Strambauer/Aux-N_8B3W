@@ -36,7 +36,7 @@ To create the folowing call is needed from the projects home diroctory
 
 The created Project can be opend with QtCreator or cmake can be used to create it
 
-To build the Project for the Raspberry Pi you have to setup QtCreater for it.
+To build the Project for the Raspberry Pi you have to setup QtCreater appropriate.
 A goot tutorial can be found here:
 https://www.raspberrypi.org/forums/viewtopic.php?t=204778
 For the Raspberry Pi 4 I had to use "linux-rasp-pi-g++" as device and have to deaktivat "wayland" in the build by adding "-skip wayland" in the configure step
