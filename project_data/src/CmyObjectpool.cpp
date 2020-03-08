@@ -151,6 +151,7 @@ void MyVtDisplay::setAuxBoolState(uint8_t aux_Id, bool state)
         old_B4_state = state;
         break;
     case 4:
+        iVtObjectButton5.setValue(state);
         if(state && state != old_B5_state)
         {
             printf("Button 5 presse!\r\n");
